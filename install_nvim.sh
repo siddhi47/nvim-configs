@@ -17,4 +17,12 @@ mkdir -p ~/git
 git pull https://github.com/siddhi47/nvim-configs.git
 #make nvim config file
 mkdir -p ~/.config/nvim
+
+# install vim-plug
+
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 cp ~/git/nvim-configs/init.vim ~/.config/nvim/init.vim
+
+
