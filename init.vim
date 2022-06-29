@@ -78,7 +78,7 @@ nnoremap <c-k> :m--<CR>
 set background=dark
 colorscheme edge
 
-# mapping the escape key
+" mapping the escape key
 imap kj <Esc>
 imap jk <Esc>
 
