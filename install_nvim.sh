@@ -13,7 +13,7 @@ sudo apt-get install neovim
 
 # make directory for git
 mkdir -p ~/git
-
+cd ~/git
 git pull https://github.com/siddhi47/nvim-configs.git
 #make nvim config file
 mkdir -p ~/.config/nvim
