@@ -6,10 +6,10 @@ source ~/.bashrc
 nvm install v16.9.0
 
 # installing nvim
-sudo apt-get install software-properties-common
+sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:neovim-ppa/unstable
-sudo apt-get update
-sudo apt-get install neovim
+sudo apt-get update -y
+sudo apt-get install neovim -y
 
 echo "# make directory for git"
 mkdir -p ~/git
