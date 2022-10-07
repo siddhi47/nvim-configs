@@ -3,7 +3,7 @@ sudo update
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 source ~/.bashrc
 # update node version v16
-nvm install v16.9.0
+nvm install v16.9.0 -y
 
 # installing nvim
 sudo apt-get install software-properties-common -y
