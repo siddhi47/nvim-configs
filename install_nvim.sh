@@ -1,6 +1,6 @@
 sudo update
 # install nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+source<(curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh)
 source ~/.bashrc
 # update node version v16
 nvm install v16.9.0 -y
